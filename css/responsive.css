@@ -1,4 +1,9 @@
-@media (min-width:1200px) {}
+@media (min-width:1200px) {
+    .navbar .navbar-nav>.active>a {
+        border-top: 3px solid #f55d32;
+        padding-top: 12px;
+    }
+}
 
 @media (min-width:992px) and (max-width:1199px) {
     .about-section {
@@ -12,12 +17,20 @@
         height: 250px;
         width: 310px;
     }
+    .navbar .navbar-nav>.active>a {
+        border-top: 3px solid #f55d32;
+        padding-top: 12px;
+    }
 }
 
 @media (min-width:768px) and (max-width:991px) {
     .about-section {
         background-position: 0;
         background-size: 50%;
+    }
+    .navbar .navbar-nav>.active>a {
+        border-top: 3px solid #f55d32;
+        padding-top: 12px;
     }
     .about-section h2, .service-section h2, .gallery-section h2 {
         font-size: 7rem;
@@ -39,12 +52,17 @@
 }
 
 @media (max-width:767px) {
-    .navbar {
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border:none;
+    }
+    .navbar{
+        background-color: rgba(255, 255, 255, 0.8);
         padding: 20px;
     }
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-        border: none;
-        background-color: rgba(255, 255, 255, 0.8);
+    .navbar .navbar-nav>.active>a {
+        border-bottom: 3px solid #f55d32;
+        padding-top: 12px;
     }
     .navbar ul {
         text-align: center;

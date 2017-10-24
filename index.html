@@ -18,7 +18,7 @@
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
 
-<body class="" data-spy="scroll" data-target="#menu">
+<body class="animated fadeIn" data-spy="scroll" data-target="#menu">
     <header>
         <div class="container-fluid">
             <nav class="navbar navbar-default navbar-fixed-top">
@@ -48,9 +48,6 @@
             </nav>
         </div>
     </header>
-    <!--######################
-    sekcja 1
-    ######################-->
     <section id="home">
         <div class="container-fluid">
             <div class="fresh-life">
@@ -331,7 +328,7 @@
             // Add scrollspy to <body>
             $('body').scrollspy({
                 target: ".navbar",
-                offset: 10
+                offset: 1000
             });
 
             // Add smooth scrolling on all links inside the navbar
@@ -374,7 +371,7 @@
     </script>
     <script>
         jQuery(document).scroll(function() {
-            if (jQuery(this).scrollTop() > 300) {
+            if (jQuery(this).scrollTop() > 200) {
                 jQuery('.navbar').css({
                     "background": "white"
                 });
@@ -384,6 +381,15 @@
                 });
             }
         });
+    </script>
+    <script>
+    $(function() {
+    $('.nav a').on('click', function(){
+        if($('.navbar-toggle').css('display') !='none'){
+            $(".navbar-toggle").trigger( "click" );
+        }
+        });
+    });
     </script>
 </body>
 
