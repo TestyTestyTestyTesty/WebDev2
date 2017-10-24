@@ -44,7 +44,7 @@
     .blog-image-3 {
         margin-top: 5px;
     }
-    .address-section{
+    .address-section {
         text-align: center;
         background-color: rgba(255, 255, 255, 0.5);
         padding: 1rem 0;
@@ -52,11 +52,10 @@
 }
 
 @media (max-width:767px) {
-
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
-        border:none;
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: none;
     }
-    .navbar{
+    .navbar {
         background-color: rgba(255, 255, 255, 0.8);
         padding: 20px;
     }
@@ -68,7 +67,7 @@
         text-align: center;
     }
     .navbar-default .navbar-nav>li>a {
-        margin:0 30vw;
+        margin: 0 30vw;
     }
     .about-section {
         background-position: -160%;
@@ -102,26 +101,26 @@
         margin-bottom: 2rem;
     }
     .blog-image {
-        margin:auto;
+        margin: auto;
     }
-    .address-section{
+    .address-section {
         text-align: center;
         background-color: rgba(255, 255, 255, 0.5);
         padding: 1rem 0;
     }
-
 }
+
 @media (max-width:590px) {
-    footer p{
+    footer p {
         font-size: 12px;
         text-align: center;
     }
-    footer{
+    footer {
         padding-left: 0;
         padding-right: 0;
     }
-
 }
+
 @media (max-width:525px) {
     .selfmade-btn h3 {
         font-size: 1.6rem;
@@ -134,7 +133,7 @@
 
 @media (max-width:450px) {
     .navbar-default .navbar-nav>li>a {
-        margin:0 25vw;
+        margin: 0 25vw;
     }
     .selfmade-btn h3 {
         font-size: 1.4rem;
@@ -162,8 +161,8 @@
     .btn-success {
         padding: 15px 10px;
     }
-    .footer-logo{
-        left:-25px;
+    .footer-logo {
+        left: -25px;
     }
 }
 
@@ -172,11 +171,11 @@
         position: relative;
         left: -5px;
     }
-    .blog-image{
-        width:290px;
+    .blog-image {
+        width: 290px;
         padding: 15px;
     }
-    .blog-text{
+    .blog-text {
         max-width: 280px;
     }
 }

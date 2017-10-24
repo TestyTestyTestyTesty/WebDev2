@@ -1,5 +1,3 @@
-
-
 .container.gallery-container {
     color: #35373a;
     min-height: 90vh;
@@ -10,7 +8,8 @@
 }
 
 /* Override bootstrap column paddings */
-.tz-gallery .row > div {
+
+.tz-gallery .row>div {
     padding: 5px;
 }
 
@@ -36,7 +35,6 @@
     transition: 0.4s;
 }
 
-
 .tz-gallery .lightbox:after {
     position: absolute;
     top: 0;
@@ -49,8 +47,7 @@
     transition: 0.4s;
 }
 
-.tz-gallery .lightbox:hover:after,
-.tz-gallery .lightbox:hover:before {
+.tz-gallery .lightbox:hover:after, .tz-gallery .lightbox:hover:before {
     opacity: 1;
 }
 
