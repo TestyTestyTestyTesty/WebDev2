@@ -43,13 +43,7 @@ Enjoy responsibly!
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-p {
-    line-height: 1.33em;
-    color: #7E7E7E;
-}
-h1 {
-    color: #EEEEEE;
-}
+
 
 #loader-wrapper {
     position: fixed;
@@ -185,21 +179,6 @@ h1 {
 
         -webkit-transition: all 0.3s 1s ease-out;
                 transition: all 0.3s 1s ease-out;
-    }
-
-    /* JavaScript Turned Off */
-    .no-js #loader-wrapper {
-        display: none;
-    }
-    .no-js h1 {
-        color: #222222;
-    }
-
-    #content {
-        margin: 0 auto;
-        padding-bottom: 50px;
-        width: 80%;
-        max-width: 978px;
     }
 
 
