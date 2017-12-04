@@ -22,7 +22,12 @@
         padding-top: 12px;
     }
 }
-
+@media (max-width:991px) {
+    .tomatoes img{
+        position: relative;
+        top: -30px;
+    }
+}
 @media (min-width:768px) and (max-width:991px) {
     .about-section {
         background-position: 0;
@@ -38,9 +43,7 @@
     .about-section p {
         font-size: 1.5rem;
     }
-    .section-3-heading h2 {
-        top: -50px;
-    }
+
     .blog-image-3 {
         margin-top: 5px;
     }
@@ -84,9 +87,7 @@
         color: #333;
         margin-right: 10px;
     }
-    .section-3-heading h2 {
-        top: -100px;
-    }
+
     .selfmade-btn h3 {
         font-size: 1.8rem;
     }
